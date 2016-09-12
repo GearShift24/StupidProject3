@@ -29,22 +29,27 @@ public class StupidController
 			System.out.println("Here goes the next question: What type of pizza is your favorite?");
 			String foodInput = inputReader.next();
 			System.out.println("Wow, you like: " + foodInput + ". I HATE that flavor zzz. Pata mazolli is much better!");
+			inputReader.nextLine(); //Used to consume unneeded potential inputs//
 			
 			System.out.println("Ok lets continue, How many dogs do you have?");
 			int dogInput = inputReader.nextInt();
 			System.out.println("Well thats depressing, you said you had: " + dogInput + ". Real men have at least 300 kek");
+			inputReader.nextLine(); //Used to consume unneeded potential inputs//
 			
 			System.out.println("While we're doing numbers, what is your favorite decimal? It can as long as you want bby!");
 			Double favNumbInput = inputReader.nextDouble();
 			System.out.println("Hey fam, " + favNumbInput + " Is a crap number. Pick a better one next time.");
+			inputReader.nextLine(); //Used to consume unneeded potential inputs//
 			
 			System.out.println("Now to the REAL questions. Those last ones were just a prank. Do you play Grepolis??? Yes or no?");
 			String grepInput = inputReader.next();
 			System.out.println("You said " + grepInput + ". Dont be quirky, of course you dont play this crap. No one does ;(");
+			inputReader.nextLine();  //Used to consume unneeded potential inputs//
 			
 			System.out.println("Lets keep going with amazing questions. How many houses do you own? (You can have half a house if you are cool by the way)");
 			float houseInput = inputReader.nextFloat();
 			System.out.println("Thats cool. Do you really have " + houseInput + "? I only have 1. Quite unfortunate.");
+			inputReader.nextLine(); //Used to consume unneeded potential inputs//
 			
 			System.out.println("So those questions were cool amirite? Anyways... Lets do a yes or no question. Do you like fossil fuels?");
 			String impossibleInput = inputReader.nextLine();
@@ -53,6 +58,7 @@ public class StupidController
 			System.out.println("Great job on the quiz so far. You are amazing 10/10. The final question is what do you rate Rocky Balboa out of 10?");
 			int rockyInput = inputReader.nextInt();
 			System.out.println("You really think it is an " + rockyInput + "/10? Thats cool. Anyways thanks for answering my stuff. Have a nice day!");
+			inputReader.nextLine(); //Used to consume unneeded potential inputs//
 			
 		}
 }
