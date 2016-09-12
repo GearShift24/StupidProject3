@@ -41,10 +41,18 @@ public class StupidController
 			System.out.println("Hey fam, " + favNumbInput + " Is a crap number. Pick a better one next time.");
 			inputReader.nextLine(); //Used to consume unneeded potential inputs//
 			
+			
 			System.out.println("Now to the REAL questions. Those last ones were just a prank. Do you play Grepolis??? Yes or no?");
 			String grepInput = inputReader.next();
+			if(grepInput.equals("yes"))
+			{
+				System.out.println("You said " + grepInput + ". WOW YOU PLAY?? ADD ME @PokeApolo my man!");
+				
+			}
+			
 			System.out.println("You said " + grepInput + ". Dont be quirky, of course you dont play this crap. No one does ;(");
-			inputReader.nextLine();  //Used to consume unneeded potential inputs//
+
+			
 			
 			System.out.println("Lets keep going with amazing questions. How many houses do you own? (You can have half a house if you are cool by the way)");
 			float houseInput = inputReader.nextFloat();
@@ -53,12 +61,22 @@ public class StupidController
 			
 			System.out.println("So those questions were cool amirite? Anyways... Lets do a yes or no question. Do you like fossil fuels?");
 			String impossibleInput = inputReader.nextLine();
-			System.out.println("You said" + impossibleInput + ". Gotcha again. Doesnt matter what you think, either way were gunna burn em and destory the world eyyyyyyyyyyyyyy!");
+			System.out.println("You said " + impossibleInput + ". Gotcha again. Doesnt matter what you think, either way were gunna burn em and destory the world eyyyyyyyyyyyyyy!");
 			
 			System.out.println("Great job on the quiz so far. You are amazing 10/10. The final question is what do you rate Rocky Balboa out of 10?");
 			int rockyInput = inputReader.nextInt();
 			System.out.println("You really think it is an " + rockyInput + "/10? Thats cool. Anyways thanks for answering my stuff. Have a nice day!");
 			inputReader.nextLine(); //Used to consume unneeded potential inputs//
+			
+			System.out.println("HA I GOT YOU. THERE ARE STILL TWO MORE QUESTIONS HEHEHE. Ok, what is your favorite tv show?");
+			String showInput = inputReader.nextLine();
+			System.out.println("You like " + showInput + "? Wow me too. What are the chances???");
+			
+			System.out.println("Ok real last question this time. How much do you like coding? Answer with a single word as that is all that is required.");
+			String enjoyInput = inputReader.next();
+			System.out.println("You like programming " + enjoyInput + ". Nice! Same bruh! Anyways have a wonderful day!");
+			inputReader.nextLine(); //Used to consume unneeded potential inputs//
+			
 			
 		}
 }
