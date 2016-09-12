@@ -37,7 +37,7 @@ public class StupidController
 			inputReader.nextLine(); //Used to consume unneeded potential inputs//
 			
 			System.out.println("While we're doing numbers, what is your favorite decimal? It can as long as you want bby!");
-			Double favNumbInput = inputReader.nextDouble();
+			double favNumbInput = inputReader.nextDouble();
 			System.out.println("Hey fam, " + favNumbInput + " Is a crap number. Pick a better one next time.");
 			inputReader.nextLine(); //Used to consume unneeded potential inputs//
 			
