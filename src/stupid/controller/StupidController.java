@@ -38,14 +38,21 @@ public class StupidController
 			Double favNumbInput = inputReader.nextDouble();
 			System.out.println("Hey fam, " + favNumbInput + " Is a crap number. Pick a better one next time.");
 			
-			System.out.println("Now to the REAL questions. Those last ones were just a prank. Do you play Grepolis???");
+			System.out.println("Now to the REAL questions. Those last ones were just a prank. Do you play Grepolis??? Yes or no?");
 			String grepInput = inputReader.next();
 			System.out.println("You said " + grepInput + ". Dont be quirky, of course you dont play this crap. No one does ;(");
 			
-			System.out.println("Lets keep going with amazing questions. How many houses do you own?");
+			System.out.println("Lets keep going with amazing questions. How many houses do you own? (You can have half a house if you are cool by the way)");
 			float houseInput = inputReader.nextFloat();
 			System.out.println("Thats cool. Do you really have " + houseInput + "? I only have 1. Quite unfortunate.");
 			
+			System.out.println("So those questions were cool amirite? Anyways... Lets do a yes or no question. Do you like fossil fuels?");
+			String impossibleInput = inputReader.nextLine();
+			System.out.println("You said" + impossibleInput + ". Gotcha again. Doesnt matter what you think, either way were gunna burn em and destory the world eyyyyyyyyyyyyyy!");
+			
+			System.out.println("Great job on the quiz so far. You are amazing 10/10. The final question is what do you rate Rocky Balboa out of 10?");
+			int rockyInput = inputReader.nextInt();
+			System.out.println("You really think it is an " + rockyInput + "/10? Thats cool. Anyways thanks for answering my stuff. Have a nice day!");
 			
 		}
 }
