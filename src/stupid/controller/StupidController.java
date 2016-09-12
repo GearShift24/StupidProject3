@@ -42,8 +42,13 @@ public class StupidController
 			inputReader.nextLine(); //Used to consume unneeded potential inputs//
 			
 			
+			
+			
+			
+			
+			
 			System.out.println("Now to the REAL questions. Those last ones were just a prank. Do you play Grepolis??? Yes or no?");
-			String grepInput = inputReader.next();
+			String grepInput = inputReader.nextLine();
 			if(grepInput.equals("yes"))
 			{
 				System.out.println("You said " + grepInput + ". WOW YOU PLAY?? ADD ME @PokeApolo my man!");
@@ -52,6 +57,9 @@ public class StupidController
 			
 			System.out.println("You said " + grepInput + ". Dont be quirky, of course you dont play this crap. No one does ;(");
 
+			
+			
+			
 			
 			
 			System.out.println("Lets keep going with amazing questions. How many houses do you own? (You can have half a house if you are cool by the way)");
@@ -64,7 +72,7 @@ public class StupidController
 			System.out.println("You said " + impossibleInput + ". Gotcha again. Doesnt matter what you think, either way were gunna burn em and destory the world eyyyyyyyyyyyyyy!");
 			
 			System.out.println("Great job on the quiz so far. You are amazing 10/10. The final question is what do you rate Rocky Balboa out of 10?");
-			int rockyInput = inputReader.nextInt();
+			double rockyInput = inputReader.nextDouble();
 			System.out.println("You really think it is an " + rockyInput + "/10? Thats cool. Anyways thanks for answering my stuff. Have a nice day!");
 			inputReader.nextLine(); //Used to consume unneeded potential inputs//
 			
