@@ -44,7 +44,7 @@ public class StupidController
 			
 			
 			
-			
+
 			
 			
 			System.out.println("Now to the REAL questions. Those last ones were just a prank. Do you play Grepolis??? Yes or no?");
