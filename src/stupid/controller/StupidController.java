@@ -7,6 +7,10 @@ public class StupidController
 	private String myName;
 	private Scanner inputReader;
 	
+	String sample = "some words are niftier than others";
+	String otherValue = " ";
+	int index = -99;
+	
 	 public StupidController()
 	 {
 		 myName = "Joseph Wrigley";
@@ -15,10 +19,54 @@ public class StupidController
 	 
 		public void start()
 		{
-			System.out.println("Welcome to the questionerre!");
-			System.out.println(myName);
-			askQuestion();
+//			System.out.println("Welcome to the questionerre!");
+//			System.out.println(myName);
+//			askQuestion();
+			playWithStrings();
+			playWithSubstrings();
 		}
+		
+		
+		public void playWithSubstrings()
+		{
+			String partOne = sample.substring(5);
+			String partTwo = sample.substring(5,sample.length());//sample.length only used if you are looking for sepereate information
+			
+			System.out.println("Here is part 1: " + partOne);
+			System.out.println("Here is part 2: " + partTwo);
+		}
+		
+		
+		
+		public void playWithStrings()
+		{
+		
+			
+			index = sample.toLowerCase().indexOf(otherValue.toLowerCase());
+			
+			System.out.println("the index of otherValue in sample is: " + index);
+			
+			
+			
+			index = otherValue.indexOf(sample);
+			
+			if(index >= 0)
+			{
+			
+				int otherIndex = sample.indexOf("other search", index+1);
+				
+			}
+			
+			
+			System.out.println("the index of otherValue in sample is: " + index);
+			
+			
+			
+		}
+		
+		
+		
+		
 		
 		private void askQuestion()
 		{
